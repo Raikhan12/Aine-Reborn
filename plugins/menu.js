@@ -157,12 +157,12 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    conn.sendHydrated(m.chat, text.trim(), 'Ⓟ premium | Ⓛ limit', null, 'https://aiinne.github.io/', 'Website', '', '', [
+    conn.sendHydrated(m.chat, text.trim(), 'Ⓟ premium | Ⓛ limit', null, 'https://raikhan12.github.io/', 'Website', '', '', [
       ['Donate', '/donasi'],
       ['Sewa Bot', '/sewa'],
       ['Owner', '/owner']
     ], m)
-    /*let url = `https://telegra.ph/file/ab1df70dfd5c2bac64da1.jpg`.trim()
+    /*let url = `https://telegra.ph/file/fd8f3de799f7dc3d3c4bd.jpg`.trim()
     let res = await fetch(url)
     let buffer = await res.buffer()
     let message = await prepareWAMessageMedia({ image: buffer }, { upload: conn.waUploadToServer })
@@ -175,7 +175,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Website',
-                                    url: 'https://Ainebot.github.io/'
+                                    url: 'https://raikhan12.github.io/'
                                 }
                             }, {
                                 quickReplyButton: {
