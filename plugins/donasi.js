@@ -7,6 +7,9 @@ let handler = async m => m.reply(`
 │       *Pulsa*
 │ •  [0813-3033-2970]
 ╰────
+╭─「 Hubungi 」
+│ > Ingin donasi? Wa.me/6282230484350
+╰────
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['donasi']
 handler.tags = ['info']
