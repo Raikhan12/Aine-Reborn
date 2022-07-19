@@ -178,6 +178,11 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
                                     url: 'https://raikhan12.github.io/'
                                 }
                             }, {
+                                urlButton: {
+                                    displayText: 'Instagram',
+                                    Url: 'https://www.instagram.com/rayraikhan/'
+                                }
+                            }, {
                                 quickReplyButton: {
                                     displayText: 'Donasi',
                                     id: '/donasi'
