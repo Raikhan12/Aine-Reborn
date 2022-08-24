@@ -1,5 +1,5 @@
 {
-    "name": "Aine-Bot",
+    "name": "Sans-Bot",
     "version": "07.06.98",
     "description": "Customizable WhatsApp Bot",
     "depecrated": false,
@@ -27,9 +27,9 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/Aiinne",
+    "homepage": "https://github.com/Raikhan12",
     "author": {
-        "name": "Muhammad Ridwan Reynaldy"
+        "name": "Muhammad Raikhan Alsyaukani"
     },
     "repository": {
         "type": "git",
